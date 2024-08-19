@@ -28,7 +28,8 @@ body{
     position: absolute;
     background :url("base.png") top center;
     background-size: cover;
-    transform: ;
+    transform: translateZ(-1px) scale(2.2);
+    filter: blur(2px);
 }
 .section1::after{
     content: "";
@@ -42,6 +43,8 @@ body{
 .section1 .text
 {
     color: black;
+    top: 10%;
+    transform: translateZ(-0.5px) scale(1.5,1.6) translate(-33%,10%);
 }
 .section2
 {
