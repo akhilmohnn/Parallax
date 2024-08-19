@@ -8,6 +8,7 @@
 #in body- overflow-x: hidden;
     overflow-y: scroll;
 #Use transorm in section1::before and in .section1 .text
+#transformation in section1 text - transform: translateZ(-0.5px) scale(1.5,1.6) translate(-33%,10%);
 
 
 
